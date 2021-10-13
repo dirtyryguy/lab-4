@@ -26,7 +26,7 @@
       <input type="radio" name="option" value="b"> LED 2 <br>
       <input type="radio" name="option" value="c"> LED 3 <br>
       <h2>Choose the Brightness</h2>
-      <input type="range" name="slider1" min="0" max="100" value="0"> <br><br>
+      <input oninput="this.form.submit()" type="range" name="slider1" min="0" max="100" value="0"> <br><br>
       <input type="submit" value="Submit"> <br>
     </form>
   </div>
