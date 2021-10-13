@@ -41,7 +41,7 @@ print(
   <br>
   <div class="aDiv">
     <h2>Choose an LED</h2>
-    <form>
+    <form action="/cgi-bin/led-select.py" method="POST">
 '''
 )
 if led == 'a':
